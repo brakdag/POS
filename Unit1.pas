@@ -191,13 +191,14 @@ end;
 
 procedure TForm1.FormActivate(Sender: TObject);
 begin
-form1
+
 listbox2.SetFocus;
 end;
 
 procedure TForm1.Button4Click(Sender: TObject);
 begin
-listbox1.addItem(inputbox('Agregar', 'Producto a Agregar', ''),nil);
+listbox1.addItem(inttostr(listbox1.Count+1)+'-'+inputbox('Agregar', 'Producto a Agregar', ''),nil);
+update_list;
 listbox2.SetFocus;
 end;
 procedure TForm1.ListBox1MeasureItem(Control: TWinControl; Index: Integer;

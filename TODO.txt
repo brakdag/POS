@@ -1,3 +1,4 @@
+13/11/2017
 * NO USAR SIMBOLO PESO PARA CARGAR DATOS X si se usa
 * AGREGAR CENTAVOS Y RENDONDEO DE CENTAVOS  V
 * HAY UN PROBLEMA SI SE SIGUEN 
@@ -6,3 +7,8 @@ AGREGANDO PRODUCTOS CON EL VUELTO, NO SE ACTUALIZA. V
 * EL SIMBOLO PESOS VA ADELANTE. EN EL TOTAL, PAGA Y VUELTO. 
 AGREGAR ELSIMBOLO "-" AL FINAL. V
 * CAMBIAR LOS : POR EL $ V
+--------------------------------------
+14/11/2017
+* Arreglar al agregar producto especial..no se actualiza precio.
+* problema de numeración al agregar producto especial.
+
