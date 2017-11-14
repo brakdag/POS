@@ -9,6 +9,7 @@ AGREGAR ELSIMBOLO "-" AL FINAL. V
 * CAMBIAR LOS : POR EL $ V
 --------------------------------------
 14/11/2017
-* Arreglar al agregar producto especial..no se actualiza precio.
-* problema de numeración al agregar producto especial.
+* Arreglar al agregar producto especial..no se actualiza precio. V
+* problema de numeración al agregar producto especial. V
+* Al no colocar valor de kg ocurre error.
 

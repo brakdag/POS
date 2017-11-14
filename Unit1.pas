@@ -133,7 +133,7 @@ begin
     str:=listbox2.Items.ValueFromIndex[i];
     if pos('kg',str)<>0 then
       begin
-        kg:=inputbox('Peso', 'cuantos kg pesa','');
+        kg:=inputbox('Peso', 'cuantos kg pesa','1');
         listbox1.AddItem(inttostr(listbox1.Count+1)+'-'+str+ ' * '+ kg +' kg',nil);
       end
       else
@@ -284,7 +284,7 @@ begin
     str:=listbox2.Items.ValueFromIndex[i];
     if pos('kg',str)<>0 then
       begin
-        kg:=inputbox('Peso', 'cuantos kg pesa','');
+        kg:=inputbox('Peso', 'cuantos kg pesa','1');
         listbox1.AddItem(inttostr(listbox1.Count+1)+'-'+str+ ' * '+ kg +' kg',nil);
       end
       else
