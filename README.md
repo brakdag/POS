@@ -15,5 +15,5 @@ Funcionalidades
     * No realiza control de inventario.
     * No almacena datos históricos de ventas.
 
-![snapshot image](img\snapshot.png "snapshoot")
+![snapshot image](https://github.com/brakdag/POS/img/snapshot.png)
 
