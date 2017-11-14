@@ -1,0 +1,44 @@
+<h1 id="punto-de-venta-pos">PUNTO DE VENTA (POS)</h1>
+<p>Es un punto de venta para un pequeño comercio. Permite manejar una lista de productos y realizar el cálculo de una venta.</p>
+<h2 id="funcionalidades">Funcionalidades</h2>
+<ul>
+<li><p>Ventajas:</p>
+<ul>
+<li>Permite agregar listado de productos.</li>
+<li>Permite realizar suma de precios de productos.</li>
+<li>Calculo de vuelto.</li>
+</ul></li>
+<li><p>Desventajas:</p>
+<ul>
+<li>No realiza control de inventario.</li>
+<li>No almacena datos históricos de ventas.</li>
+</ul></li>
+</ul>
+<figure>
+<img src="https://github.com/brakdag/POS/blob/master/img/snapshot.png?raw=true" alt="snapshot image" /><figcaption>snapshot image</figcaption>
+</figure>
+<h2 id="agrega-producto-al-listado-de-productos.">Agrega producto al listado de productos.</h2>
+<figure>
+<img src="https://github.com/brakdag/POS/blob/master/img/agregarproducto.bmp?raw=true" alt="producto image" /><figcaption>producto image</figcaption>
+</figure>
+<p>Este botón permite agregar un nuevo producto al listado. La forma de agreagar es el nombre del producto seguido del símbolo $ y el valor del producto. Alternativamente si se agrega la sigla kg, el programa interpretará que es un producto que se vende por kg entonces cuando se realice una compra del producto preguntará sobre su peso, o si tiene una balanza electrónica conectada tomará el peso de la balanza.</p>
+<h2 id="remover-producto-del-listado-de-productos.">Remover producto del listado de productos.</h2>
+<figure>
+<img src="https://github.com/brakdag/POS/blob/master/img/quitarproducto.bmp?raw=true" alt="borrar image" /><figcaption>borrar image</figcaption>
+</figure>
+<p>Quita un producto de la lista. Para que sea quitado antes debe ser seleccionado.</p>
+<h2 id="nueva-lista-de-venta.">Nueva lista de venta.</h2>
+<figure>
+<img src="https://github.com/brakdag/POS/blob/master/img/nuevaventa.bmp?raw=true" alt="nueva venta imagen" /><figcaption>nueva venta imagen</figcaption>
+</figure>
+<p>Prepara el programa para una nueva venta, volviendo el contador a cerro y borrando todos los elementos de la lista de compras.</p>
+<h2 id="cálculo-de-vuelto.">Cálculo de vuelto.</h2>
+<figure>
+<img src="https://github.com/brakdag/POS/blob/master/img/paga.bmp?raw=true" alt="paga imagen" /><figcaption>paga imagen</figcaption>
+</figure>
+<p>Pregunta con cuanto dinero paga el cliente para calcular el vuelto, el vuelto será escrito en la pantalla, si el dinero es menor al de la suma de la compra devuelve “-”</p>
+<h2 id="producto-especial.">Producto especial.</h2>
+<figure>
+<img src="https://github.com/brakdag/POS/blob/master/img/especial.bmp?raw=true" alt="especial imagen" /><figcaption>especial imagen</figcaption>
+</figure>
+<p>Un producto especial es el que no se desea que se encuentre en l a lista de productos, pero si se desea que esté en la lista de venta. La forma de agregar es igual a un producto nuevo a la lista de productos. El producto se agregará a la lista de ventas, sin agregarse a la lista de productos.</p>
