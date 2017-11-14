@@ -15,5 +15,5 @@ Funcionalidades
     * No realiza control de inventario.
     * No almacena datos históricos de ventas.
 
-![snapshot image](img\snapshot.png)
+![snapshot image](img\snapshot.png "snapshoot")
 
