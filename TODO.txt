@@ -12,4 +12,5 @@ AGREGAR ELSIMBOLO "-" AL FINAL. V
 * Arreglar al agregar producto especial..no se actualiza precio. V
 * problema de numeración al agregar producto especial. V
 * Al no colocar valor de kg ocurre error.
+* Agregar buscador para lista de productos.
 
