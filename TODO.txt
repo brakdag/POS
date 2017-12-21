@@ -10,7 +10,11 @@ AGREGAR ELSIMBOLO "-" AL FINAL. V
 --------------------------------------
 14/11/2017
 * Arreglar al agregar producto especial..no se actualiza precio. V
-* problema de numeración al agregar producto especial. V
+* problema de numeraciï¿½n al agregar producto especial. V
 * Al no colocar valor de kg ocurre error.
 * Agregar buscador para lista de productos.
+---------------------------------------
+* Trasladar proyecto a electron.
+* Usar sequelize con SQlite para persistencia. 
+* Reordenar estructura del proyecto.
 

@@ -1,0 +1,14 @@
+{
+  "name": "posnode",
+  "version": "1.0.0",
+  "description": "Point of Sale",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pos"
+  ],
+  "author": "brakdag@gmail.com Gustavo Ferreyra",
+  "license": "MIT"
+}
