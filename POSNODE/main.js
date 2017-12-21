@@ -10,7 +10,8 @@ const template = [
       {label:'Guardar'},
       {label:'Configuracion'},
       {type:'separator'},
-      {label:'Salir'},
+      {label:'Salir',
+      click: ()=>app.quit() },
     ]
   },
   {
@@ -30,7 +31,9 @@ const template = [
   {
     label: 'Ayuda',
     submenu: [
-      {label:'Acerca de ...'}
+      {label:'Acerca de ...',
+      click: ()=>console.log('brakdag@gmail.com')
+    }
     ]
   }
 ]
