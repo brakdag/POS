@@ -1,7 +1,10 @@
 const path = require('path');
 window.jQuery = window.$ = require('jquery');
 
-function agregar(){
-    console.log(path.extname('index.html'));
+$(document).ready(() => {
+    $('#agregar').click(() => {
+        var t = $('#texto').val();
+        console.log('agregado' + t);
+    });
+});
 
-  }

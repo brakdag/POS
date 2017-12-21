@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +9,7 @@
     <script src='./codigo.js'></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Punto de venta</title>
-   
+
 </head>
 
 <body>
@@ -29,46 +28,47 @@
                 <input type="text"></input>
             </div>
         </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="Total">
-                            <div class="jumbotron">Total</div>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="botones">
-                            <button type="button" class="btn btn-info"> Nueva</button>
-                            <button type="button" class="btn btn-info"> Borrar</button>
-                            <button type="button" class="btn btn-info"> Paga</button>
-                            <button type="button" class="btn btn-info"> Producto no listado</button>
-                            <button type="button" class="btn btn-info"> Balanza</button>
-                           <!-- Trigger the modal with a button -->
-<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Agregar</button>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="Total">
+                    <div class="jumbotron">Total</div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="botones">
+                    <button type="button" class="btn btn-info"> Nueva</button>
+                    <button type="button" class="btn btn-info"> Borrar</button>
+                    <button type="button" class="btn btn-info"> Paga</button>
+                    <button type="button" class="btn btn-info"> Producto no listado</button>
+                    <button type="button" class="btn btn-info"> Balanza</button>
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Agregar</button>
 
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+                    <!-- Modal -->
+                    <div id="myModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>
-      <div class="modal-body">
-        <p>Some text in the modal.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Agregar Producto</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Agregar producto.</p>
+                                    <input id="texto" type="text"></input>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" id="agregar" class="btn btn-default" data-dismiss="modal">Agregar</button>
+                                </div>
+                            </div>
 
-  </div>
-</div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 </body>
 
 </html>
